@@ -1,7 +1,61 @@
 p1 {
-    background-color: red
+    color:white
 }
 
 h1 {
     background-color:red
+}
+header {
+    background-color:#666666;
+    padding:12px;
+    color:white;
+    text-align: center;
+    font:20px;
+}
+
+nav ul {
+    list-style:none;
+    padding:10px;
+}
+h3 {
+    background-color:orangered
+}
+h1 {
+    background-color:orangered
+}
+
+html{
+    background-color: rgb(128, 98, 0);
+}
+a{
+    color:whitesmoke
+}
+nav{
+    widows: 31%;
+    background-color:;
+    height:500px;
+    display:inline-block
+
+}
+article{
+    width: 94%;
+    height:500px;
+    float:right;
+    background-color:white;
+
+}
+footer{
+    padding:20px;
+    background-color: black;
+    text-align:center;
+}
+img{
+    height:290px;
+
+}
+#an{
+    color: tomato;
+}
+.img{
+    height:300px;
 }
