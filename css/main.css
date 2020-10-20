@@ -1,9 +1,12 @@
+/* html{
+    background-image: url(../images/bentley/maxresdefault.jpg);
+} */
 p1 {
     color:white
 }
 
 h1 {
-    background-color:red
+    background-color:yellow
 }
 header {
     background-color:#666666;
@@ -24,38 +27,108 @@ h1 {
     background-color:orangered
 }
 
-html{
-    background-color: rgb(128, 98, 0);
-}
+
+
 a{
     color:whitesmoke
 }
 nav{
     widows: 31%;
-    background-color:;
-    height:500px;
-    display:inline-block
+    background-color:green;
+    height:20px;
+    display:inline-table
 
 }
-article{
-    width: 94%;
-    height:500px;
+body{
+    background-image: url(../images/bentley/maxresdefault.jpg);
+    height: 2000px;
+    background-repeat: no-repeat ,repeat;
+
+}
+/* article{
+    width:94%;
+    height:850px;
     float:right;
-    background-color:white;
+    background-image: url(../images/bentley/maxresdefault.jpg);
+    background-repeat: no-repeat ,repeat;
 
-}
+} */
 footer{
-    padding:20px;
+    height: 200px;
+    width: 1821;
     background-color: black;
-    text-align:center;
+    color: white;
+    
 }
 img{
-    height:290px;
+    height:399px;
 
 }
 #an{
     color: tomato;
 }
-.img{
-    height:300px;
+.range{
+    height:420px;
 }
+.VW{
+    height: 397px;
+    width: 579px;
+}
+.Q5{
+    height: 420px;
+}
+
+.royce{
+    width: 580px;
+    height:420px;
+}
+
+.bentley{
+    width: 572px;
+    height:420px;
+}
+
+.cheron{
+    width: 546px;
+    height:420px;
+    
+}
+.a-claas{
+    height: 399px;
+    width: 671px;
+}
+.b-claas{
+    height: 810px;
+    width: 1821px;
+}
+#my-html{
+    background-color: grey;
+}
+#ange{
+    width: 603px;
+}
+#nge{
+    width: 603px;
+}
+#rolce{
+    height: 339px;
+    width: 603px;
+}
+#oyce{
+    height: 339px;
+    width: 603px;
+}
+#royce{
+    height: 339px;
+    width: 603px;
+}
+#royce-html{
+    background-color:grey;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-image{
+      grid-area: image;
+  }
