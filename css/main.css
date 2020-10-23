@@ -1,6 +1,6 @@
-/* html{
-    background-image: url(../images/bentley/maxresdefault.jpg);
-} */
+ html{
+    background-image: url(../images/bentley/images_wall.jpegs);
+} 
 p1 {
     color:white
 }
@@ -9,7 +9,7 @@ h1 {
     background-color:yellow
 }
 header {
-    background-color:#666666;
+    background-color:white;
     padding:12px;
     color:white;
     text-align: center;
@@ -17,8 +17,11 @@ header {
 }
 
 nav ul {
-    list-style:none;
-    padding:10px;
+    list-style-position: None;
+    height: 100px;
+    width: 1700px;
+    text-align-last: center;
+;
 }
 h3 {
     background-color:orangered
@@ -34,41 +37,43 @@ a{
 }
 nav{
     widows: 31%;
-    background-color:green;
+    background-color:gray;
     height:20px;
     display:inline-table
 
 }
-body{
+/*body{
     background-image: url(../images/bentley/maxresdefault.jpg);
     height: 2000px;
     background-repeat: no-repeat ,repeat;
 
-}
-/* article{
+}*/
+/*article{
     width:94%;
     height:850px;
     float:right;
     background-image: url(../images/bentley/maxresdefault.jpg);
     background-repeat: no-repeat ,repeat;
 
-} */
+}*/
 footer{
-    height: 200px;
+    height: 290px;
     width: 1821;
     background-color: black;
     color: white;
+    text-align: center;
     
 }
 img{
     height:399px;
 
 }
-#an{
-    color: tomato;
-}
+/*#an{
+    height:300ppx;
+}*/
 .range{
     height:420px;
+    width: 576px;
 }
 .VW{
     height: 397px;
@@ -125,10 +130,7 @@ img{
 #royce-html{
     background-color:grey;
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card-image{
-      grid-area: image;
-  }
+
+.try-container {
+    display: none;
+}

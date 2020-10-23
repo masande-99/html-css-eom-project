@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+        * {box-sizing: border-box;}
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute; 
+          bottom: 0; 
+          background: rgb(0, 0, 0);
+          background: rgba(0, 0, 0, 0.5); /* Black see-through */
+          color: #f1f1f1; 
+          width: 100%;
+          transition: .5s ease;
+          opacity:0;
+          color: white;
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+
+        .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row{
+    position: relative;
+          width: 33.33%;
+          max-width: 300px;
+}
+.row:hover .overlay {
+          opacity: 1;
+        }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.try-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+<div class="container try-container">
+    <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Mercedes-benz" class="image">
+        <div class="overlay">Mercedes-benz</div>
+    </div>
+    <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Mercedes-benz" class="image">
+        <div class="overlay">Mercedes-benz</div>
+      </div>
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Mercedes-benz" class="image">
+        <div class="overlay">Mercedes-benz</div>
+      </div>
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Mercedes-benz" class="image">
+        <div class="overlay">Mercedes-benz</div>
+      </div>
+<!--
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">Mercedes-benz</div>
+      </div>
+
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+    
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+
+      <div class="row">
+        <img src="images/mercedes/mercedes-benz-cla_o.jpg" alt="Avatar" class="image">
+        <div class="overlay">My Name is John</div>
+      </div>
+      </div>-->
+      <div>
+</body>
+</html>
