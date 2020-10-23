@@ -23,21 +23,17 @@ nav ul {
     text-align-last: center;
 ;
 }
-h3 {
-    background-color:orangered
-}
+
 h1 {
-    background-color:orangered
+    background-image: url(../images/bentley/maxresdefault.jpg);
 }
 
 
 
-a{
-    color:whitesmoke
-}
+
 nav{
-    widows: 31%;
-    background-color:gray;
+    width: 1812px;
+    background-image: url(../images/rolls-royce/royc-rolls-interio.jpeg);
     height:20px;
     display:inline-table
 
@@ -64,15 +60,15 @@ footer{
     text-align: center;
     
 }
-img{
+/*img{
     height:399px;
 
 }
 /*#an{
     height:300ppx;
 }*/
-.range{
-    height:420px;
+/*.range{
+    height:600px;
     width: 576px;
 }
 .VW{
@@ -81,11 +77,6 @@ img{
 }
 .Q5{
     height: 420px;
-}
-
-.royce{
-    width: 580px;
-    height:420px;
 }
 
 .bentley{
@@ -105,7 +96,7 @@ img{
 .b-claas{
     height: 810px;
     width: 1821px;
-}
+}*/
 #my-html{
     background-color: grey;
 }
@@ -133,4 +124,13 @@ img{
 
 .try-container {
     display: none;
+
+}
+.range{
+    height:600px;
+    width: 900px;
+}
+#an{
+    height:600px;
+    width: 908px;
 }
