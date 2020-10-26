@@ -134,7 +134,7 @@ footer{
     height:600px;
     width: 908px;
 }
-#h2colour{
+p{
     color: red;
 }
 
@@ -159,7 +159,8 @@ footer{
   display: table;
   clear: both;
 }
-}
+
+
 * {box-sizing: border-box;}
 
 #an {
@@ -167,5 +168,21 @@ footer{
   width: 100%;
   height: auto;
 }
+
+/*.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration 
+  }*/
+/*  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
 
 
