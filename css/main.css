@@ -134,3 +134,38 @@ footer{
     height:600px;
     width: 908px;
 }
+#h2colour{
+    color: red;
+}
+
+.image-class {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.row{
+    position: relative;
+          width: 33.33%;
+          max-width: 300px;
+}
+.row:hover .overlay {
+          opacity: 1;
+        }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+* {box-sizing: border-box;}
+
+#an {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
