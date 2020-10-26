@@ -97,3 +97,6 @@ p{
         display: inline-block;
     }
   }
+  li{
+      color: white;
+  }
