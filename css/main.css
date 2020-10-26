@@ -1,4 +1,4 @@
- html{
+html{
     background-image: url(../images/bentley/images_wall.jpegs);
 } 
 p1 {
@@ -6,7 +6,9 @@ p1 {
 }
 
 h1 {
-    background-color:yellow
+    background-image: url(..images/VW/backgroundp1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 header {
     background-color:white;
@@ -18,10 +20,9 @@ header {
 
 nav ul {
     list-style-position: None;
-    height: 100px;
-    width: 1700px;
+    height: 100%;
+    width: 100%;
     text-align-last: center;
-;
 }
 
 h1 {
@@ -32,108 +33,22 @@ h1 {
 
 
 nav{
-    width: 1812px;
+    width: 100%;
     background-image: url(../images/rolls-royce/royc-rolls-interio.jpeg);
-    height:20px;
+    height:100%;
     display:inline-table
 
 }
-/*body{
-    background-image: url(../images/bentley/maxresdefault.jpg);
-    height: 2000px;
-    background-repeat: no-repeat ,repeat;
 
-}*/
-/*article{
-    width:94%;
-    height:850px;
-    float:right;
-    background-image: url(../images/bentley/maxresdefault.jpg);
-    background-repeat: no-repeat ,repeat;
-
-}*/
 footer{
-    height: 290px;
+    height: 285px;
     width: 1821;
     background-color: black;
     color: white;
     text-align: center;
     
 }
-/*img{
-    height:399px;
 
-}
-/*#an{
-    height:300ppx;
-}*/
-/*.range{
-    height:600px;
-    width: 576px;
-}
-.VW{
-    height: 397px;
-    width: 579px;
-}
-.Q5{
-    height: 420px;
-}
-
-.bentley{
-    width: 572px;
-    height:420px;
-}
-
-.cheron{
-    width: 546px;
-    height:420px;
-    
-}
-.a-claas{
-    height: 399px;
-    width: 671px;
-}
-.b-claas{
-    height: 810px;
-    width: 1821px;
-}*/
-#my-html{
-    background-color: grey;
-}
-#ange{
-    width: 603px;
-}
-#nge{
-    width: 603px;
-}
-#rolce{
-    height: 339px;
-    width: 603px;
-}
-#oyce{
-    height: 339px;
-    width: 603px;
-}
-#royce{
-    height: 339px;
-    width: 603px;
-}
-#royce-html{
-    background-color:grey;
-}
-
-.try-container {
-    display: none;
-
-}
-.range{
-    height:600px;
-    width: 900px;
-}
-#an{
-    height:600px;
-    width: 908px;
-}
 p{
     color: red;
 }
@@ -149,11 +64,12 @@ p{
     position: relative;
           width: 33.33%;
           max-width: 300px;
+          display: contents;
 }
 .row:hover .overlay {
           opacity: 1;
         }
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -169,20 +85,15 @@ p{
   height: auto;
 }
 
-/*.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration 
-  }*/
-/*  
+
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
-      display: block;
-      margin-bottom: 20px;
+    }
+    nav {
+        width: 100%;
+    }
+    .row {
+        display: inline-block;
     }
   }
-
-
-
